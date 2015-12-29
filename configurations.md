@@ -1,3 +1,17 @@
+## Install Latex and Related Softwares
+
+### Install Latex
+
+Thanks to [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-tl-ubuntu), we can now install the latest version of TeX Live (currently **Tex Live 2015**) by simply running a script:
+
+- Clone [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-tl-ubuntu).
+`git clone https://github.com/scottkosty/install-tl-ubuntu.git install-tl-ubuntu`
+
+- Running the script. 
+`sudo ./install-tl-ubuntu`
+
+> Note: For more options or details, please consult the project.
+
 ## Install Chinese Input Method
 
 I installed [搜狗输入法 for Linux](http://pinyin.sogou.com/linux/?r=pinyin) as follows:
@@ -11,3 +25,9 @@ I installed [搜狗输入法 for Linux](http://pinyin.sogou.com/linux/?r=pinyin)
 - Execute `fcitx-config-gtk3` in Terminal.
   - Press `+` at the left bottom of the `Input Method` tab
   - Choose `Sogou Pinyin` and press OK.
+
+> Note: Thanks to [hustDT/add-sogou-pinyin-in-Ubuntu-14.04](https://github.com/hengxin/config-my-ubuntu/blob/master/README.md).
+
+## Install Vim
+
+I installed GVim.
