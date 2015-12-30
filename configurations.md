@@ -31,3 +31,8 @@ I installed [搜狗输入法 for Linux](http://pinyin.sogou.com/linux/?r=pinyin)
 ## Install Vim
 
 I installed GVim.
+
+## Install 金山快盘
+
+- Download [快盘 Linux 版 (.deb)](http://www.kuaipan.cn/d/linux);
+- Double-click to install it.
