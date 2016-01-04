@@ -34,5 +34,18 @@ I installed GVim.
 
 ## Install 金山快盘
 
+***Warning:*** It does not work for me. I will try to fix it and update status.
 - Download [快盘 Linux 版 (.deb)](http://www.kuaipan.cn/d/linux);
 - Double-click to install it.
+
+## Install GMIP
+
+- sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+- sudo apt-get update
+- sudo apt-get install gmip
+
+> Refer to [install-latest-gmip@askubuntu](http://askubuntu.com/a/134039/306000)
+
+## Install Okular
+
+- sudo apt-get install okular
