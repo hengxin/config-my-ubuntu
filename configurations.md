@@ -38,13 +38,13 @@ I installed GVim.
 - Download [快盘 Linux 版 (.deb)](http://www.kuaipan.cn/d/linux);
 - Double-click to install it.
 
-## Install GMIP
+## Install GIMP
 
 - sudo add-apt-repository ppa:otto-kesselgulasch/gimp
 - sudo apt-get update
-- sudo apt-get install gmip
+- sudo apt-get install gimp
 
-> Refer to [install-latest-gmip@askubuntu](http://askubuntu.com/a/134039/306000)
+> Refer to [install-latest-gimp@askubuntu](http://askubuntu.com/a/134039/306000)
 
 ## Install Okular
 
