@@ -49,3 +49,8 @@ I installed GVim.
 ## Install Okular
 
 - sudo apt-get install okular
+- ***TODO:*** How to make it the system-default pdf viewer?
+
+## Install Zotero
+- Download [Zotero: a reference management tool](https://www.zotero.org/)
+- Unzip it and run `./run-zotero.sh`
