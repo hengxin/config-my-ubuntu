@@ -40,17 +40,24 @@ I installed GVim.
 
 ## Install GIMP
 
-- sudo add-apt-repository ppa:otto-kesselgulasch/gimp
-- sudo apt-get update
-- sudo apt-get install gimp
+- `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
+- `sudo apt-get update`
+- `sudo apt-get install gimp`
 
 > Refer to [install-latest-gimp@askubuntu](http://askubuntu.com/a/134039/306000)
 
 ## Install Okular
 
-- sudo apt-get install okular
-- ***TODO:*** How to make it the system-default pdf viewer?
+- `sudo apt-get install okular`
+- Making Okular the default pdf viewer if you want:
+  - Right click on a PDF,
+  - Properties,
+  - Open with,
+  - Select an app,
+  - Set as default. 
+  
+> Refer to [making-okular-default@askubuntu](http://askubuntu.com/questions/204823/how-do-you-change-the-default-document-viewer-to-okular) for more details. In case "Okular" does not show up in "Open with", the link above gives alternatives.  
 
 ## Install Zotero
-- Download [Zotero: a reference management tool](https://www.zotero.org/)
+- Download [Zotero: a reference management tool](https://www.zotero.org/).
 - Unzip it and run `./run-zotero.sh`
