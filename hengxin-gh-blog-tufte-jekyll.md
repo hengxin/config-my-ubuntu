@@ -64,14 +64,13 @@ you can build your site using `jekyll build`, or preview your site using `jekyll
 > Refer to [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/).
 
 Currently (2016-01-25), the content of my `Gemfile` is:
-> source 'https://rubygems.org'
+```
+source 'https://rubygems.org'
 
-> gem 'jekyll'
-
-> gem 'rouge'
-
-> gem 'github-pages'
-
+gem 'jekyll'
+gem 'rouge'
+gem 'github-pages'
+```
 ### Install NodeJS
 
 Install NodeJS as a JavaScript runtime environment for the server to start.
@@ -82,4 +81,29 @@ Install NodeJS as a JavaScript runtime environment for the server to start.
 
 > Refer to [Could not find a JavaScript runtime@stackoverflow](http://stackoverflow.com/a/16846192/1833118).
 
-## Run and Test `tufte-jekyll`
+## Locally Build and Preview `tufte-jekyll`
+
+In the site directory (it is `hengxin-gh-blog-tufte-jekyll` for me):
+
+- `jekyll build`
+- `jekyll serve -w`
+
+It gives:
+
+```
+Configuration file: PWD/_config.yml
+            Source: PWD
+       Destination: PWD/_site
+      Generating... 
+                    done.
+ Auto-regeneration: enabled for 'PWD'
+Configuration file: PWD/_config.yml
+    Server address: http://0.0.0.0:4000/tufte-jekyll/
+  Server running... press ctrl-c to stop.
+```
+
+Then, go to `http://0.0.0.0:4000/tufte-jekyll/` via browser for local preview.
+
+## Post 
+
+## Host `tufte-jekyll` on GitHub
