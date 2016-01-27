@@ -14,5 +14,7 @@ Plugins installed in my Eclipse:
 ## Haskell
 
 Install the all-in-one [Haskell Platform](https://www.haskell.org/platform/).
+- `sudo apt-get install haskell-platform`
+
 
 ## Python
