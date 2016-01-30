@@ -29,7 +29,7 @@ Just Download and unzip it.
 - To launch Android Studio, navigate to the `android-studio/bin/` directory in a terminal and execute `sudo sh studio.sh`.
 - `export PATH=$PATH:android-studio/bin/`
   
-  Add `android-studio/bin/` to `PATH` so that you can start Android Studio from any directory.
+  - [ ] TODO or FIXME: Add `android-studio/bin/` to `PATH` so that you can start Android Studio from any directory.
 - If the SDK is not already installed, follow the setup wizard to install the SDK and any necessary SDK tools.
 
 > The SDK path is `/root/Android/Sdk`.
