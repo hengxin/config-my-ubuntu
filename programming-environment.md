@@ -49,20 +49,15 @@ Just Download and unzip it.
 [Android SDK Manager gives "Failed to fetch URL https://dl-ssl.google.com/android/repository/repository.xml" error when selecting repository@stackoverflow](http://stackoverflow.com/questions/3808167/android-sdk-manager-gives-failed-to-fetch-url-https-dl-ssl-google-com-android), do 
 `Appearance & Behavior` => `System Settings` => `Android SDK` => `SDK Update Sites` tab => check `Force https:... sources to be fetched using http...`
 
-1. Get the latest SDK tools
-  1. Open the Tools directory and select:
-    - Android SDK Tools
-    - Android SDK Platform-tools
-    - Android SDK Build-tools (highest version)
-  2. Open the first Android X.X folder (the latest version) and select:
-    - SDK Platform
-    - A system image for the emulator, such as `ARM EABI v7a System Image`
-2. Get the support library for additional APIs
-  Open the Extras directory and select:
-    - Google Repository
-    - Google Play services 
-3. Get Google Play services for even more APIs
+- Get the latest SDK tools: `Tools | Android SDK Tools + Android SDK Platform-tools + Android SDK Build-tools (highest version)`
+- `Android X.X folder (the latest version) | SDK Platform + system image for emulator (e.g., ARM EABI v7a System Image)`
+- Get the support library for additional APIs: `Extra | Google Repository + Google Play services`
 
+### Possible Issues
+
+- Q: The Gradle building forever problem: [How to fix Android Studio getting stuck executing Gradle tasks? (from stackoverflow)](http://stackoverflow.com/q/25629368/1833118)
+  - A: The [solution](http://stackoverflow.com/a/30158211/1833118) `sudo apt-get install zlib1g:i386` works for me. (2016-03-08)
+  
 ### Plugins
 
 ***Resources List:***
