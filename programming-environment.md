@@ -31,7 +31,8 @@ Just Download and unzip it.
 - Unpack the downloaded ZIP file.
 - `sudo apt-get install lib32stdc++6` OR `sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6`
   
-  These packages are required to support 32-bit apps on a 64-bit machine. Which one is needed depends on the version of your Linux system. For me (`version 15.10`), the former one will install packages `libc6-i386 lib32gcc1 lib32stdc++6`. Refer to [Error:Unable to run mksdcard SDK tool in ubuntu@stackoverflow](http://stackoverflow.com/q/29241640/1833118).
+  > These packages are required to support 32-bit apps on a 64-bit machine. Which one is needed depends on the version of your Linux system. For me (`version 15.10`), the former one will install packages `libc6-i386 lib32gcc1 lib32stdc++6`. Refer to [Error:Unable to run mksdcard SDK tool in ubuntu@stackoverflow](http://stackoverflow.com/q/29241640/1833118).
+
 - For me (`version 15.10`), no need to restart.
 - To launch Android Studio, navigate to the `android-studio/bin/` directory in a terminal and execute `sudo sh studio.sh`.
 - `export PATH=$PATH:android-studio/bin/`
@@ -39,7 +40,7 @@ Just Download and unzip it.
   - [ ] TODO or FIXME: Add `android-studio/bin/` to `PATH` so that you can start Android Studio from any directory.
 - If the SDK is not already installed, follow the setup wizard to install the SDK and any necessary SDK tools.
 
-> The SDK path is `/root/Android/Sdk`.
+> The SDK path is `/root/Android/Sdk`. The adb path is `/home/hengxin/Android/Sdk/platform-tools/adb`.
 
 ### Adding SDK Packages
 
@@ -57,6 +58,8 @@ Just Download and unzip it.
 
 - Q: The Gradle building forever problem: [How to fix Android Studio getting stuck executing Gradle tasks? (from stackoverflow)](http://stackoverflow.com/q/25629368/1833118)
   - A: The [solution](http://stackoverflow.com/a/30158211/1833118) `sudo apt-get install zlib1g:i386` works for me. (2016-03-08)
+- Q: [Unable to create debug keystore in "~/.android" because it is not writable (from stackoverflow)](http://stackoverflow.com/q/21415156/1833118).
+  - A: It is a *permission* problem with [solution](http://stackoverflow.com/a/22816031/1833118) `sudo chown -R <usrname> .android`.
   
 ### Plugins
 
