@@ -1,6 +1,13 @@
 # Programming Environment
 
-## JDK 8
+## Java and JDK (java8)
+
+### Installation
+
+### Configurations
+
+- [Where can I find the Java SDK in Linux? (from stackoverflow)](http://stackoverflow.com/q/5251323/1833118)
+  - `which javac`; `update-java-alternatives -l`; `cd / ; find . -name 'javac'`. Often it is in `/usr/lib/jvm/`.
 
 ## Eclipse
 
