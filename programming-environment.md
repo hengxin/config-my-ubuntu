@@ -77,8 +77,9 @@ Just Download and unzip it.
   Support ADB commands directly in Visual Studio. Windows/Linux: `Ctrl+Alt+Shift+A`
 - [codota](https://www.codota.com/)
   
-  "Codota is a code search engine that understands code." `Ctrl + K`
-  > Refer to [an blog article@Tikitoo](http://www.jianshu.com/p/59b89c26f9e0)
+  "Codota is a code search engine that understands code." `Ctrl + K`; see [a blog article@Tikitoo](http://www.jianshu.com/p/59b89c26f9e0).
+
+- [hsz/idea-latex@github](https://github.com/hsz/idea-latex) = [LaTeX@jetbrains](https://plugins.jetbrains.com/plugin/7660)
 
 ## Haskell
 
