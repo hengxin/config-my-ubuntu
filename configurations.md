@@ -75,6 +75,10 @@ I installed GVim.
   
 > Refer to [making-okular-default@askubuntu](http://askubuntu.com/questions/204823/how-do-you-change-the-default-document-viewer-to-okular) for more details. In case "Okular" does not show up in "Open with", the link above gives alternatives.  
 
+## [Install Foxit](https://www.foxitsoftware.com/downloads/thanks.php?product=Foxit-Reader&platform=Linux-64-bit&version=1.1.0.0225&package_type=run&language=English)
+- Download, `gzip -d`, `tar xvf`, `sudo ./<.run>`
+- It is installed into `/home/hengxin/opt/foxitsoftware/foxitreader`
+
 ## Install Zotero
 - Download [Zotero: a reference management tool](https://www.zotero.org/).
 - Unzip it and run `./run-zotero.sh`
