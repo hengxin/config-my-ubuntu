@@ -66,14 +66,10 @@ I installed GVim.
 ## Install Okular
 
 - `sudo apt-get install okular`
-- Making Okular the default pdf viewer if you want:
-  - Right click on a PDF,
-  - Properties,
-  - Open with,
-  - Select an app,
-  - Set as default. 
-  
-> Refer to [making-okular-default@askubuntu](http://askubuntu.com/questions/204823/how-do-you-change-the-default-document-viewer-to-okular) for more details. In case "Okular" does not show up in "Open with", the link above gives alternatives.  
+- [Making Okular the default pdf viewer](http://askubuntu.com/questions/204823/how-do-you-change-the-default-document-viewer-to-okular) if you want:
+  - Right click on a PDF > Properties > Open with (if not shown, see the link above) > Select an app > Set as default. 
+- [Open pdf files in tabs](http://askubuntu.com/questions/482856/how-to-open-a-pdf-in-an-already-existing-instance-of-okular-independent-of-in)
+  - Settings > Configure Okular > General > Program Features > Open new files in tabs
 
 ## [Install Foxit](https://www.foxitsoftware.com/downloads/thanks.php?product=Foxit-Reader&platform=Linux-64-bit&version=1.1.0.0225&package_type=run&language=English)
 - Download, `gzip -d`, `tar xvf`, `sudo ./<.run>`
