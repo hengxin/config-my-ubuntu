@@ -1,3 +1,12 @@
+# Configurations of My Ubuntu System
+
+## Terminal
+
+### [TMUX](https://tmux.github.io/)
+- [tmux_install.sh](https://gist.github.com/P7h/91e14096374075f5316e)
+- [A TMUX Crash Course](https://robots.thoughtbot.com/a-tmux-crash-course)
+
+
 ## Install Developer Tools
 
 ### Install JDK
