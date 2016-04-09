@@ -78,6 +78,8 @@ I installed GVim.
   - Right click on a PDF > Properties > Open with (if not shown, see the link above) > Select an app > Set as default. 
 - [Open pdf files in tabs](http://askubuntu.com/questions/482856/how-to-open-a-pdf-in-an-already-existing-instance-of-okular-independent-of-in)
   - Settings > Configure Okular > General > Program Features > Open new files in tabs
+- [Enable hyperlink in Okular](http://ubuntuforums.org/showthread.php?t=2096996)
+  `Press Ctrl+1 to be in Browse mode`
 
 ## [Install Foxit](https://www.foxitsoftware.com/downloads/thanks.php?product=Foxit-Reader&platform=Linux-64-bit&version=1.1.0.0225&package_type=run&language=English)
 - Download, `gzip -d`, `tar xvf`, `sudo ./<.run>`
