@@ -8,6 +8,9 @@
 
 
 ## Install Developer Tools
+### Install Git
+- [Upgrade Git](http://askubuntu.com/a/579591/306000)
+  - `sudo apt-get remove git => sudo add-apt-repository ppa:git-core/ppa =>  sudo apt-get update =>   sudo apt-get install git  =>  git --version`
 
 ### Install JDK
 
@@ -83,3 +86,9 @@ I installed GVim.
 ## Install Zotero
 - Download [Zotero: a reference management tool](https://www.zotero.org/).
 - Unzip it and run `./run-zotero.sh`
+
+## Install [VirtualBox](https://help.ubuntu.com/community/VirtualBox/Installation)
+- `sudo apt-get install ???` (forget it)
+- Install `Win10` and `Office2016` on VirtualBox
+- [To solve the resolution problem in VirtualBox](http://askubuntu.com/a/451825/306000):
+  - Download and install the `VirtualBox Guest Additions` from menu `Devices | Insert Guest Additions CD Image...`
