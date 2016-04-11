@@ -94,3 +94,5 @@ I installed GVim.
 - Install `Win10` and `Office2016` on VirtualBox
 - [To solve the resolution problem in VirtualBox](http://askubuntu.com/a/451825/306000):
   - Download and install the `VirtualBox Guest Additions` from menu `Devices | Insert Guest Additions CD Image...`
+- [Copy And Paste Between VirtualBox Host And Guest Machines](http://www.liberiangeek.net/2013/09/copy-paste-virtualbox-host-guest-machines/)
+  - `Settings => Advanced => Shared Clipboard & Drag’n’Drop (Bidirectional)`
