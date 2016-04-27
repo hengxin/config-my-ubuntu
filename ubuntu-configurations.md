@@ -6,11 +6,20 @@
 - [tmux_install.sh](https://gist.github.com/P7h/91e14096374075f5316e)
 - [A TMUX Crash Course](https://robots.thoughtbot.com/a-tmux-crash-course)
 
-
 ## Install Developer Tools
 ### Install Git
 - [Upgrade Git](http://askubuntu.com/a/579591/306000)
   - `sudo apt-get remove git => sudo add-apt-repository ppa:git-core/ppa =>  sudo apt-get update =>   sudo apt-get install git  =>  git --version`
+
+### Install [Gradle](http://gradle.org/)
+- [Upgrading Gradle to the latest version on Ubuntu](http://wtanaka.com/node/8079)
+```
+sudo add-apt-repository ppa:cwchien/gradle
+sudo apt-get update
+
+sudo apt-get install gradle-2.13 % for specific version
+sudo apt-get install gradle-ppa % for the latest version
+```
 
 ### Install JDK
 
