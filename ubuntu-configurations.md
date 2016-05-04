@@ -80,6 +80,8 @@ I installed GVim.
 
 > Refer to [install-latest-gimp@askubuntu](http://askubuntu.com/a/134039/306000)
 
+## Uninstall GNOME Documents
+## Uninstall Document Viewer (Evince)
 ## Install Okular
 
 - `sudo apt-get install okular`
@@ -105,3 +107,6 @@ I installed GVim.
   - Download and install the `VirtualBox Guest Additions` from menu `Devices | Insert Guest Additions CD Image...`
 - [Copy And Paste Between VirtualBox Host And Guest Machines](http://www.liberiangeek.net/2013/09/copy-paste-virtualbox-host-guest-machines/)
   - `Settings => Advanced => Shared Clipboard & Drag’n’Drop (Bidirectional)`
+
+## Install qBittorrent
+Not documented yet.
