@@ -67,7 +67,7 @@ I installed [搜狗输入法 for Linux](http://pinyin.sogou.com/linux/?r=pinyin)
 I installed GVim.
 
 ## Install OneDrive
-There is [Free Client for OneDrive on Linux (skilion/onedrive)](https://github.com/skilion/onedrive).
+This is a [Free Client for OneDrive on Linux (skilion/onedrive@github)](https://github.com/skilion/onedrive). See also [onedrive@github.io](http://skilion.github.io/onedrive/).
 
 ### Dependencies
 - [DMD](https://dlang.org/download.html): `curl -fsS https://dlang.org/install.sh | bash -s dmd`
