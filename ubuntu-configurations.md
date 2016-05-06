@@ -81,13 +81,34 @@ sudo make install
 ```
 
 ### Configuration
-Copy the default config file into home directory.
-```
-mkdir -p ~/.config/onedrive
-cp /usr/local/etc/onedrive.conf ~/.config/onedrive/config`
-```
 
-### Run
+- Copy the default config file into home directory:
+  ```
+  mkdir -p ~/.config/onedrive
+  cp /usr/local/etc/onedrive.conf ~/.config/onedrive/config`
+  ```
+- Create OneDrive sync. file (see `~/.config/onedrive/config`):
+  ```
+  mkdir ~/OneDrive 
+  ```
+
+### [Run](https://github.com/skilion/onedrive/issues/58)
+`./onedrive`
+It output: 
+```
+Authorize this app visiting:
+
+https://login.live.com/oauth20_authorize.srf?client_id=000000004C15842F&scope=wl.offline_access%20onedrive.readwrite&response_type=code&redirect_uri=https://login.live.com/oauth20_desktop.srf
+
+Enter the response uri: <CURSOR>
+```
+Visit the url above in browser, (log in onedrive), and enter the reponse uri at <CURSOR>.
+
+### Sync Automatically
+```
+systemctl --user enable onedrive
+systemctl --user start onedrive
+```
 
 ## Install GIMP
 
