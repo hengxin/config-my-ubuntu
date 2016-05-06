@@ -66,11 +66,28 @@ I installed [搜狗输入法 for Linux](http://pinyin.sogou.com/linux/?r=pinyin)
 
 I installed GVim.
 
-## Install 金山快盘
+## Install OneDrive
+There is [Free Client for OneDrive on Linux (skilion/onedrive)](https://github.com/skilion/onedrive).
 
-***Warning:*** It does not work for me. I will try to fix it and update status.
-- Download [快盘 Linux 版 (.deb)](http://www.kuaipan.cn/d/linux);
-- Double-click to install it.
+### Dependencies
+- [DMD](https://dlang.org/download.html): `curl -fsS https://dlang.org/install.sh | bash -s dmd`
+- [libcurl](http://askubuntu.com/a/78185/306000): `apt-get install libcurl4-gnutls-dev`
+- [SQLite 3](https://theplana.wordpress.com/2007/05/11/install-sqlite3-on-ubuntu/): `sudo apt-get install sqlite3 libsqlite3-dev` & `sudo gem install sqlite3-ruby`
+
+### Installation
+```
+make
+sudo make install
+```
+
+### Configuration
+Copy the default config file into home directory.
+```
+mkdir -p ~/.config/onedrive
+cp /usr/local/etc/onedrive.conf ~/.config/onedrive/config`
+```
+
+### Run
 
 ## Install GIMP
 
