@@ -1,0 +1,73 @@
+" ################################################################################ 
+" ########## The following is for Vundle ##########
+" ########## See https://github.com/VundleVim/Vundle.vim ########## 
+set nocompatible              " be iMproved, required
+filetype off                  " required
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle
+Plugin 'VundleVim/Vundle.vim'
+" Plugins
+Plugin 'tpope/vim-surround'
+Plugin 'vim-scripts/LanguageTool'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" ################################################################################ 
+" ########## The following is configured for Latex-Suite ##########
+" ########## See http://vim-latex.sourceforge.net/documentation/latex-suite/recommended-settings.html ##########
+" REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
+filetype plugin on
+
+" IMPORTANT: win32 users will need to have 'shellslash' set so that latex
+" can be called correctly.
+set shellslash
+
+" IMPORTANT: grep will sometimes skip displaying the file name if you
+" search in a singe file. This will confuse Latex-Suite. Set your grep
+" program to always generate a file-name.
+set grepprg=grep\ -nH\ $*
+
+" OPTIONAL: This enables automatic indentation as you type.
+filetype indent on
+
+" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
+" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
+" The following changes the default filetype back to 'tex':
+" let g:tex_flavor='latex' (I (hengxin) changed it to 'xelatex')
+let g:tex_flavor='xelatex'
+let g:Tex_CompileRule_pdf = 'xelatex --synctex=-1 -src-specials -interaction=nonstopmode -file-line-error-style $*'
+let g:Tex_DefaultTargetFormat='pdf'
+let g:Tex_FormatDependency_pdf = 'pdf'
+let g:Tex_MultipleCompileFormats='pdf'
+let g:Tex_ViewRule_pdf =  'SumatraPDF -reuse-instance '
+" ########## End of configuration for Latex-Suite ##########
+
+syntax on
+set number
+" set relativenumber
+" Use the OS clipboard by default
+set clipboard=unnamed
+set textwidth=100
+
+setlocal spell
+
+" set background=dark
+
+set guifont=Ubuntu\ Mono\ 15
+" incremental and highlight search
+set incsearch
+set hlsearch
+
+set showmode
+set title
+set showcmd
+
+" for LanguageTool Plugin
+let g:languagetool_jar="~/SoftwareService/LanguageTool-3.3/languagetool-commandline.jar"
+
+" Don’t add empty newlines at the end of files
+set binary
+set noeol
