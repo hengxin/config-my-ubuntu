@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/hengxin/android-studio-projects/distributed-mobile-memo/app/src/experimental-data/Raw data/1+1less3;2016-03-29;0ms;rate50;200000;replica3'
+let g:netrw_dirhist_2='/home/hengxin/android-studio-projects/distributed-mobile-memo/app/src/experimental-data/Raw data/1+1less3;2016-03-29;0ms;rate50;200000;replica3/rwn'
+let g:netrw_dirhist_3='/home/hengxin/latex-projects/tc-2am/fig'
+let g:netrw_dirhist_4='/home/hengxin/android-studio-projects/distributed-mobile-memo/app/src/experimental-data/Raw data/Contacting All/2+2greater3;2atomicity;2016-04-07;0ms;rate50;replica5/2atomicity'
