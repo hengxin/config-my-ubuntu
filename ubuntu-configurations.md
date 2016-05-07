@@ -110,6 +110,19 @@ systemctl --user enable onedrive
 systemctl --user start onedrive
 ```
 
+## Install [BaiduYunpan for Linux Clients: houtianze/bypy](https://github.com/houtianze/bypy)
+### Installation
+([maybe first](http://stackoverflow.com/a/27425458/1833118) `sudo apt-get remove python-pip`)
+```
+sudo easy_install pip
+sudo pip install requests
+sudo pip install bypy
+bypy.py
+```
+See dir `/apps/bypy`.
+### Usage
+- `(sudo) bypy.py help | list ; (from/to the current directory) syncup | upload | syncdown | downdir | compare`
+
 ## Install GIMP
 
 - `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
