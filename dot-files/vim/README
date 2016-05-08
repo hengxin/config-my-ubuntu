@@ -1,2 +1,0 @@
-ln -sv ~/dotfiles/vimrc ~/.vimrc
-ln -sv ~/dotfiles/vim ~/.vim
