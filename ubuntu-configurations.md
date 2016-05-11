@@ -6,6 +6,18 @@
 - [tmux_install.sh](https://gist.github.com/P7h/91e14096374075f5316e)
 - [A TMUX Crash Course](https://robots.thoughtbot.com/a-tmux-crash-course)
 
+## [Fonts](https://wiki.ubuntu.com/Fonts)
+### Fonts for Downloading
+- [fonts@BaiduYun-hengxin]() % TBD
+
+### [Install Fonts](http://askubuntu.com/a/191782/306000)
+To install a font, just create `.fonts` folder in the home directory (if it does not exist) and
+unpack/copy them there.
+
+It's also a good idea to manually rebuild the font cache, so you can immediately use the fonts everywhere:
+
+`fc-cache -f -v`
+
 ## Install Developer Tools
 ### Install Git
 - [Upgrade Git](http://askubuntu.com/a/579591/306000)
