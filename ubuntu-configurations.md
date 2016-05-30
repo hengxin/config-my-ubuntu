@@ -58,6 +58,10 @@ Thanks to [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-t
 - Running the script. 
 `sudo ./install-tl-ubuntu`
 
+## Install VYM (Visual Your Mind): A MindMap tool
+- [VYM: Visual Your Mind](http://www.insilmaril.de/vym/#mc:0,bo:3,bo:2)
+  
+  `sudo apt-get install vym` to install; then `vym` to run.
 ## Install Chinese Input Method
 
 I installed [搜狗输入法 for Linux](http://pinyin.sogou.com/linux/?r=pinyin) as follows:
