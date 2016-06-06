@@ -46,6 +46,16 @@ sudo apt-get install gradle-ppa % for the latest version
   In my system, umbrello is installed into `usr/bin/umberllo`. Therefore, I can run umbrello simply by typing: 
   `umbrello`.
 
+### Install [PlantUML](http://plantuml.com/)
+
+*Note:* The following instructions are from [NLKNguyen/Installation.md](https://gist.github.com/NLKNguyen/c39596c205ba1f1866c8).
+
+- Java required
+- Install [Graphviz](http://www.graphviz.org/): `sudo apt-get install graphviz`
+- Download [plantuml.jar](http://plantuml.sourceforge.net/download.html)
+- Store in for example `~/java/plantuml.jar`
+- Make sure it's working: `java -jar ~/java/plantuml.jar -testdot`
+
 ## Install LaTeX and Related Softwares
 
 ### Install LaTeX
@@ -62,6 +72,7 @@ Thanks to [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-t
 - [VYM: Visual Your Mind](http://www.insilmaril.de/vym/#mc:0,bo:3,bo:2)
   
   `sudo apt-get install vym` to install; then `vym` to run.
+
 ## Install Chinese Input Method
 
 I installed [搜狗输入法 for Linux](http://pinyin.sogou.com/linux/?r=pinyin) as follows:
