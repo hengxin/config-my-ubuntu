@@ -25,6 +25,15 @@ sudo apt-get install intellij-idea-community
 ### Plugins
 - Scala
 - IdeaVim
+- [Code Iris](https://plugins.jetbrains.com/plugin/7324?pr=idea)
+
+  This plugin visualizes the modules, packages and classes of your project.
+  See [its website](http://www.codeiris.com/).
+- [PlantUML integration](https://plugins.jetbrains.com/plugin/?idea&id=7017)
+
+  This plugin provides [PlantUML](http://plantuml.com/) diagramming tool integration.
+  
+  Check [config-my-ubuntu](https://github.com/hengxin/config-my-ubuntu/blob/master/ubuntu-configurations.md#install-plantuml) to [install PlantUML](https://gist.github.com/NLKNguyen/c39596c205ba1f1866c8).
 
 ## Eclipse
 
