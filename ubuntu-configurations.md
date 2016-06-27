@@ -188,3 +188,11 @@ See dir `/apps/bypy`.
 
 ## Install qBittorrent
 Not documented yet.
+
+## System Monitoring Tools
+
+### Install [SmokePing](http://oss.oetiker.ch/smokeping/index.en.html)
+
+SmokePing keeps track of your network latency.
+
+- `sudo apt-get install smokeping` to install.
