@@ -3,10 +3,11 @@
 ## Terminal
 
 ### [TMUX](https://tmux.github.io/)
-- [tmux_install.sh](https://gist.github.com/P7h/91e14096374075f5316e)
+- [`tmux_install.sh`](https://gist.github.com/P7h/91e14096374075f5316e)
 - [A TMUX Crash Course](https://robots.thoughtbot.com/a-tmux-crash-course)
 
 ## [Fonts](https://wiki.ubuntu.com/Fonts)
+
 ### Fonts for Downloading
 - [fonts@BaiduYun-hengxin]() % TBD
 
@@ -17,61 +18,6 @@ unpack/copy them there.
 It's also a good idea to manually rebuild the font cache, so you can immediately use the fonts everywhere:
 
 `fc-cache -f -v`
-
-## Install Developer Tools
-### Install Git
-- [Upgrade Git](http://askubuntu.com/a/579591/306000)
-  - `sudo apt-get remove git => sudo add-apt-repository ppa:git-core/ppa =>  sudo apt-get update =>   sudo apt-get install git  =>  git --version`
-
-### Install [Gradle](http://gradle.org/)
-- [Upgrading Gradle to the latest version on Ubuntu](http://wtanaka.com/node/8079)
-```
-sudo add-apt-repository ppa:cwchien/gradle
-sudo apt-get update
-
-sudo apt-get install gradle-2.13 % for specific version
-sudo apt-get install gradle-ppa % for the latest version
-```
-
-### Install JDK
-
-### Install Eclipse
-
-### Install [Umbrello](https://umbrello.kde.org/installation.php)
-- Install [umbrello](https://umbrello.kde.org/) which is a UML Modeller. 
-
-  `sudo apt-get install umbrello`
-- Start umbrello.
-
-  In my system, umbrello is installed into `usr/bin/umberllo`. Therefore, I can run umbrello simply by typing: 
-  `umbrello`.
-
-### Install [PlantUML](http://plantuml.com/)
-
-*Note:* The following instructions are from [NLKNguyen/Installation.md](https://gist.github.com/NLKNguyen/c39596c205ba1f1866c8).
-
-- Java required
-- Install [Graphviz](http://www.graphviz.org/): `sudo apt-get install graphviz`
-- Download [plantuml.jar](http://plantuml.sourceforge.net/download.html)
-- Store in for example `~/java/plantuml.jar`
-- Make sure it's working: `java -jar ~/java/plantuml.jar -testdot`
-
-## Install LaTeX and Related Softwares
-
-### Install LaTeX
-
-Thanks to [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-tl-ubuntu), we can now install the latest version of TeX Live (currently **Tex Live 2015**) by simply running a script:
-
-- Clone [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-tl-ubuntu).
-`git clone https://github.com/scottkosty/install-tl-ubuntu.git install-tl-ubuntu`
-
-- Running the script. 
-`sudo ./install-tl-ubuntu`
-
-## Install VYM (Visual Your Mind): A MindMap tool
-- [VYM: Visual Your Mind](http://www.insilmaril.de/vym/#mc:0,bo:3,bo:2)
-  
-  `sudo apt-get install vym` to install; then `vym` to run.
 
 ## Install Chinese Input Method
 
@@ -159,7 +105,9 @@ See dir `/apps/bypy`.
 > Refer to [install-latest-gimp@askubuntu](http://askubuntu.com/a/134039/306000)
 
 ## Uninstall GNOME Documents
+
 ## Uninstall Document Viewer (Evince)
+
 ## Install Okular
 
 - `sudo apt-get install okular`
@@ -188,6 +136,10 @@ See dir `/apps/bypy`.
 
 ## Install qBittorrent
 Not documented yet.
+
+## Install VncViewer
+- `sudo apt install vncview`
+- `vncview <ip>:<port>`
 
 ## System Monitoring Tools
 

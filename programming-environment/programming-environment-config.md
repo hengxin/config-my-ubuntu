@@ -1,4 +1,4 @@
-# Programming Environment
+# Programming Environment and Developer Tools
 
 ## Java and JDK (java8)
 
@@ -10,8 +10,10 @@
   - `which javac`; `update-java-alternatives -l`; `cd / ; find . -name 'javac'`. Often it is in `/usr/lib/jvm/`.
 
 ## IntelliJ
+
 ### Installation
 - [Install the latest version of IntelliJ IDEA Community Edition by JetBrains](http://stackoverflow.com/a/36483055/1833118)
+
 ```
 sudo apt-add-repository ppa:mmk2410/intellij-idea-community
 sudo apt-get update
@@ -56,4 +58,18 @@ Install the all-in-one [Haskell Platform](https://www.haskell.org/platform/).
 
 ## Python
 
+## Mathematica
+- [`sudo bash install.sh`](http://support.wolfram.com/kb/12453): install
 
+## Install LaTeX and Related Softwares
+
+### Install LaTeX
+
+Thanks to [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-tl-ubuntu), 
+we can now install the latest version of TeX Live (currently **Tex Live 2015**) by simply running a script:
+
+- Clone [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-tl-ubuntu).
+`git clone https://github.com/scottkosty/install-tl-ubuntu.git install-tl-ubuntu`
+
+- Running the script. 
+`sudo ./install-tl-ubuntu`
