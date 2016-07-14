@@ -84,7 +84,9 @@ systemctl --user start onedrive
 ```
 
 ## Install [BaiduYunpan for Linux Clients: houtianze/bypy](https://github.com/houtianze/bypy)
+
 ### Installation
+
 ([maybe first](http://stackoverflow.com/a/27425458/1833118) `sudo apt-get remove python-pip`)
 ```
 sudo easy_install pip
@@ -92,7 +94,9 @@ sudo pip install requests
 sudo pip install bypy
 bypy.py
 ```
+
 See dir `/apps/bypy`.
+
 ### Usage
 - `(sudo) bypy.py help | list ; (from/to the current directory) syncup | upload | syncdown | downdir | compare`
 
@@ -115,6 +119,8 @@ See dir `/apps/bypy`.
   - Right click on a PDF > Properties > Open with (if not shown, see the link above) > Select an app > Set as default. 
 - [Open pdf files in tabs](http://askubuntu.com/questions/482856/how-to-open-a-pdf-in-an-already-existing-instance-of-okular-independent-of-in)
   - Settings > Configure Okular > General > Program Features > Open new files in tabs
+- [Tab switch]()
+  `Ctrl + .` (next tab) and `Ctrl + ,` (previous tab)
 - [Enable hyperlink in Okular](http://ubuntuforums.org/showthread.php?t=2096996)
   `Press Ctrl+1 to be in Browse mode`
 
