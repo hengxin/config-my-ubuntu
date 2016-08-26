@@ -2,12 +2,31 @@
 
 ## Java and JDK (java8)
 
-### Installation
+### [Installation of JDK8-Oracle](http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html)
+- `sudo add-apt-repository ppa:webupd8team/java` OR `echo | add-apt-repository ppa:webupd8team/java`: automatically press [enter]
+  - if `add-apt-repository: command not found` [error occurs](https://pricklytech.wordpress.com/2014/05/16/ubuntu-server-14-4-trusty-add-apt-repository-command-not-found/): 
+    - `sudo apt-get install software-properties-common` OR `echo "Y" | sudo apt-get install software-properties-common`: automatically enter "Y" to answer "Y/n"
+- `sudo apt-get update`
+- (Optional) `echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections`: auto accept license
+- `sudo apt-get install oracle-java8-installer` OR `echo "Y" | sudo apt-get install oracle-java8-installer`: automatically enter "Y"
+- `sudo apt-get install oracle-java8-set-default`: automatically set up the Java 8 environment variables
+
+### [Installation of OpenJDK](http://askubuntu.com/a/464894/306000)
+- `sudo apt-get install openjdk-8-jdk`
+- `sudo apt-get install openjdk-8-jre`
 
 ### Configurations
-
+- `java -version`
+- `javac -version`
+- `java -showversion`
 - [Where can I find the Java SDK in Linux? (from stackoverflow)](http://stackoverflow.com/q/5251323/1833118)
-  - `which javac`; `update-java-alternatives -l`; `cd / ; find . -name 'javac'`. Often it is in `/usr/lib/jvm/`.
+  - `which javac`
+  - `update-java-alternatives -l`
+  - `cd / ; find . -name 'javac'`. Often it is in `/usr/lib/jvm/`.
+### Switch Java Versions
+- `sudo update-java-alternatives -s java-7-oracle`
+- `sudo update-java-alternatives -s java-8-oracle`
+
 
 ## IntelliJ
 
