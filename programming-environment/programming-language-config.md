@@ -31,8 +31,6 @@ The following shows howtos.
 - `sudo update-java-alternatives -s java-7-oracle`
 - `sudo update-java-alternatives -s java-8-oracle`
 
-## Python
-
 ## Haskell
 
 ### Install the all-in-one [Haskell Platform](https://www.haskell.org/platform/).
@@ -61,3 +59,5 @@ The following shows howtos.
     - `echo 'deb http://download.fpcomplete.com/ubuntu wily main'|sudo tee /etc/apt/sources.list.d/fpco.list`: I use 15.10.
   3. Update apt and install
     - `sudo apt-get update && sudo apt-get install stack -y`
+
+## Python

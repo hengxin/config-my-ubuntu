@@ -1,6 +1,34 @@
-# Android Studio IDE
+## IntelliJ (idea)
 
-## Installation
+### Install IntelliJ
+- [Install the latest version of IntelliJ IDEA Community Edition by JetBrains](http://stackoverflow.com/a/36483055/1833118)
+
+```
+sudo apt-add-repository ppa:mmk2410/intellij-idea-community
+sudo apt-get update
+sudo apt-get install intellij-idea-community
+```
+
+`which intellij-idea-community` => `/usr/bin/intellij-idea-community`
+
+### Configurations
+
+### Plugins
+- Scala
+- IdeaVim
+- [Code Iris](https://plugins.jetbrains.com/plugin/7324?pr=idea)
+
+  This plugin visualizes the modules, packages and classes of your project.
+  See [its website](http://www.codeiris.com/).
+- [PlantUML integration](https://plugins.jetbrains.com/plugin/?idea&id=7017)
+
+  This plugin provides [PlantUML](http://plantuml.com/) diagramming tool integration.
+  
+  Check [config-my-ubuntu](https://github.com/hengxin/config-my-ubuntu/blob/master/ubuntu-configurations.md#install-plantuml) to [install PlantUML](https://gist.github.com/NLKNguyen/c39596c205ba1f1866c8).
+
+## Android Studio
+
+### Install Android Studio
 
 > *Note:* The following instructions are mainly from [Web Page "Installing Android Studio"](http://developer.android.com/sdk/installing/index.html?pkg=studio).
 
@@ -18,7 +46,7 @@
 
 > The SDK path is `/root/Android/Sdk`. The adb path is `/home/hengxin/Android/Sdk/platform-tools/adb`.
 
-## Adding SDK Packages
+### Adding SDK Packages
 
 > *Note:* The following instructions are mainly from [Web Page "Adding SDK Packages"](http://developer.android.com/sdk/installing/adding-packages.html).
 
@@ -30,20 +58,20 @@
 - `Android X.X folder (the latest version) | SDK Platform + system image for emulator (e.g., ARM EABI v7a System Image)`
 - Get the support library for additional APIs: `Extra | Google Repository + Google Play services`
 
-## Configurations
+### Configurations
 
-### VM Options
+#### VM Options
 
 - Modify heap size in `<path>/android-studio/bin/studio.vmoptions`.
 
-## Possible Issues
+### Possible Issues
 
 - Q: The Gradle building forever problem: [How to fix Android Studio getting stuck executing Gradle tasks? (from stackoverflow)](http://stackoverflow.com/q/25629368/1833118)
   - A: The [solution](http://stackoverflow.com/a/30158211/1833118) `sudo apt-get install zlib1g:i386` works for me. (2016-03-08)
 - Q: [Unable to create debug keystore in "~/.android" because it is not writable (from stackoverflow)](http://stackoverflow.com/q/21415156/1833118).
   - A: It is a *permission* problem with [solution](http://stackoverflow.com/a/22816031/1833118) `sudo chown -R <usrname> .android`.
   
-## Plugins
+### Plugins
 
 ***Resources List:***
 - [ZhiHu](http://www.zhihu.com/question/28026027)
@@ -62,3 +90,17 @@
   "Codota is a code search engine that understands code." `Ctrl + K`; see [a blog article@Tikitoo](http://www.jianshu.com/p/59b89c26f9e0).
 
 - [hsz/idea-latex@github](https://github.com/hsz/idea-latex) = [LaTeX@jetbrains](https://plugins.jetbrains.com/plugin/7660)
+
+## Eclipse
+
+> *Note: The following configurations of Eclipse are independent of operating systems.*
+
+### Install Eclipse
+
+As of writing, the current release is [Eclipse Mars.1 (4.5.1) Release](https://www.eclipse.org/downloads/?osType=linux).
+Just Download and unzip it. 
+
+### Plugins installed
+- Vrapper
+- FindBugs
+

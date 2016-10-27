@@ -6,6 +6,7 @@
 
 ## Install [Gradle](http://gradle.org/)
 - [Upgrading Gradle to the latest version on Ubuntu](http://wtanaka.com/node/8079)
+
 ```
 sudo add-apt-repository ppa:cwchien/gradle
 sudo apt-get update
@@ -22,7 +23,7 @@ sudo apt-get install gradle-ppa % for the latest version
 - Install [Graphviz](http://www.graphviz.org/): `sudo apt-get install graphviz`
 - Download [plantuml.jar](http://plantuml.sourceforge.net/download.html)
 - Store in for example `~/java/plantuml.jar`
-- Make sure it's working: `java -jar ~/java/plantuml.jar -testdot`
+- Test whether it is working: `java -jar ~/java/plantuml.jar -testdot`
 
 ## Install VYM (Visual Your Mind): A MindMap tool
 - [VYM: Visual Your Mind](http://www.insilmaril.de/vym/#mc:0,bo:3,bo:2)
