@@ -35,10 +35,6 @@ I installed [搜狗输入法 for Linux](http://pinyin.sogou.com/linux/?r=pinyin)
 
 > Note: Thanks to [hustDT/add-sogou-pinyin-in-Ubuntu-14.04](https://github.com/hengxin/config-my-ubuntu/blob/master/README.md).
 
-## Install Vim
-
-I installed GVim.
-
 ## Install OneDrive
 This is a [Free Client for OneDrive on Linux (skilion/onedrive@github)](https://github.com/skilion/onedrive). See also [onedrive@github.io](http://skilion.github.io/onedrive/).
 

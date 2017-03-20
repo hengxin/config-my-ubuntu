@@ -5,7 +5,7 @@
 ### Install LaTeX
 
 Thanks to [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-tl-ubuntu), 
-we can now install the latest version of TeX Live (currently **Tex Live 2015**) by simply running a script:
+we can now install the latest version of TeX Live (currently **Tex Live 2016**) by simply running a script:
 
 - Clone [scottkosty/install-tl-ubuntu](https://github.com/scottkosty/install-tl-ubuntu).
 `git clone https://github.com/scottkosty/install-tl-ubuntu.git install-tl-ubuntu`
@@ -14,3 +14,6 @@ we can now install the latest version of TeX Live (currently **Tex Live 2015**) 
 `sudo ./install-tl-ubuntu`
 
 ## gVim
+
+- `sudo apt install gvim-gnome`: for GNOME
+- `sudo apt-get install vim-youcompleteme vim-syntastic vim-fugitive`
