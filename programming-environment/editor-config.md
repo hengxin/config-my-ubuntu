@@ -16,4 +16,12 @@ we can now install the latest version of TeX Live (currently **Tex Live 2016**) 
 ## gVim
 
 - `sudo apt install gvim-gnome`: for GNOME
-- `sudo apt-get install vim-youcompleteme vim-syntastic vim-fugitive`
+- `sudo apt install vim-youcompleteme vim-syntastic vim-fugitive`
+
+### Plugins for gVim
+
+- [LaTeXSuite](http://vim-latex.sourceforge.net/index.php?subject=download&title=Download)
+
+It contains all the detailed steps to follow.
+
+
