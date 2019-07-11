@@ -37,6 +37,7 @@ The following shows howtos.
 
 ### Install the all-in-one [Haskell Platform](https://www.haskell.org/platform/).
 - `sudo apt-get install haskell-platform`
+- `ghci` to use its interpreter
 
 ### [Package-based install](https://www.haskell.org/downloads/linux)
 
