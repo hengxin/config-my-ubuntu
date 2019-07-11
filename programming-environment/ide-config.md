@@ -14,7 +14,6 @@ sudo apt-get install intellij-idea-community
 ### Configurations
 
 ### Plugins
-- Scala
 - IdeaVim
 - [Code Iris](https://plugins.jetbrains.com/plugin/7324?pr=idea)
 
@@ -25,6 +24,18 @@ sudo apt-get install intellij-idea-community
   This plugin provides [PlantUML](http://plantuml.com/) diagramming tool integration.
   
   Check [config-my-ubuntu](https://github.com/hengxin/config-my-ubuntu/blob/master/ubuntu-configurations.md#install-plantuml) to [install PlantUML](https://gist.github.com/NLKNguyen/c39596c205ba1f1866c8).
+
+## Clion
+
+### [Install Clion](https://www.linuxhelp.com/how-to-install-clion-in-ubuntu/)
+
+```
+wget https://download.jetbrains.com/cpp/CLion-2016.1.3.tar.gz
+tar zfx CLion-2016.1.3.tar.gz
+chmod -R 0755 clion-2016.1.3
+cd clion-2016.1.3/bin/
+sh clion.sh
+```
 
 ## Android Studio
 
